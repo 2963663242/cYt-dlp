@@ -41,9 +41,9 @@ c++调用python的原理大概是将python当做一个c++库来调用，那么�
 
 进入python安装目录，我们将除了`Lib`、`include`、`libs`文件夹的所有文件都复制到你项目文件夹的`sdk/win/bin`文件夹中
 
-将python安装目录`Lib`文件夹除了site-packages文件夹的所有文件进行zip压缩，命名为python37.zip,放到项目文件夹的`sdk/win/bin/Lib`
+将python安装目录`Lib`文件夹除了site-packages文件夹的所有文件进行zip压缩，命名为python37.zip,放到项目文件夹的`sdk/win/bin`
 
-进入`yt-dlp`文件夹,使用python3.7.4[创建并进入虚拟环境](https://www.cnblogs.com/xiao-apple36/p/12810941.html) `venv`,使用`pip install -r requirements.txt`安装`yt-dlp`所需的第三方库，将`venv\Lib\site-packages`文件夹复制到项目文件夹的`sdk/win/bin`
+进入`yt-dlp`文件夹,使用python3.7.4[创建并进入虚拟环境](https://www.cnblogs.com/xiao-apple36/p/12810941.html) `venv`,使用`pip install -r requirements.txt`安装`yt-dlp`所需的第三方库，将`venv\Lib\site-packages`文件夹复制到项目文件夹的`sdk/win/bin/Lib`
 
 最后将`yt_dlp`目录复制到项目文件夹的`sdk/win/bin`
 
