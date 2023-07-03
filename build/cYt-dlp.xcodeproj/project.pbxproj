@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		06F8FDB9FE2B4A019544E262 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 667F31C0D2FA4E6BBCDEC634 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				14FDAFB37B96DE60EF95CEF6 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				268FF6A294704470A667E525 /* PBXTargetDependency */,
+				338439CCF68B4500981DC810 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B9FB9D89FBF44DD38D4ED571 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DF999152999B4DA78334B44E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9B00F703CBD2D803F5868B93 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CEDCF1EE68A6479CA9FF1E20 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CF1E481B44204D39BEEA6B79 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */; };
+		D74029CFAF1449759D1DE411 /* /Users/czl/Desktop/st/cYt-dlp/main.cpp */ = {isa = PBXBuildFile; fileRef = 67694017D98A4F99B80EF45E /* /Users/czl/Desktop/st/cYt-dlp/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		085F4F78A6E74ABD9F589D70 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7562439F9B55474DB73867D9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D4E741D2F7064E9FA9E01B76 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F29E2384FE3C46E9A1393DDD /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2BAA3B62417946E2AF182FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF7F07C86694F56BDDEC46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FB9D89FBF44DD38D4ED571;
+			remoteInfo = ZERO_CHECK;
+		};
+		691C8CFD5AAD48598E2E6775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF7F07C86694F56BDDEC46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1BF6FA2F3B4230B1AE8695;
+			remoteInfo = "cYt-dlp";
+		};
+		6CBC61E3982044AABEC277BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF7F07C86694F56BDDEC46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FB9D89FBF44DD38D4ED571;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2277D12BFC744EE59F219D64 /* cYt-dlp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "cYt-dlp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67694017D98A4F99B80EF45E /* /Users/czl/Desktop/st/cYt-dlp/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		CF1E481B44204D39BEEA6B79 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DBF0A0E037C348A197426EC7 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3276F494F049B1AC8E05B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7CB8A2EEAD46D485302C3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E00D958F7AD41C9959824B4 /* cYt-dlp */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE07913E0E4C64B4DCA162 /* Source Files */,
+				CF1E481B44204D39BEEA6B79 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */,
+			);
+			name = "cYt-dlp";
+			sourceTree = "<group>";
+		};
+		6EEE07913E0E4C64B4DCA162 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				67694017D98A4F99B80EF45E /* /Users/czl/Desktop/st/cYt-dlp/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C034885B93114A42A3C320BC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1BDA04BB84C31A6E6F132 /* CMake Rules */,
+				DBF0A0E037C348A197426EC7 /* /Users/czl/Desktop/st/cYt-dlp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CBB3419946D24483A67C85D2 = {
+			isa = PBXGroup;
+			children = (
+				6E00D958F7AD41C9959824B4 /* cYt-dlp */,
+				C034885B93114A42A3C320BC /* ALL_BUILD */,
+				DB3B7E870CF641FD8649BAAE /* Products */,
+				0E7CB8A2EEAD46D485302C3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3B7E870CF641FD8649BAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2277D12BFC744EE59F219D64 /* cYt-dlp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF1BDA04BB84C31A6E6F132 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1BF6FA2F3B4230B1AE8695 /* cYt-dlp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAEF356B9144A099C163351 /* Build configuration list for PBXNativeTarget "cYt-dlp" */;
+			buildPhases = (
+				1E7AFE45552748A5BE4231D4 /* Sources */,
+				1E3276F494F049B1AC8E05B8 /* Frameworks */,
+				F2E6C12298AD296038EB01B0 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920779937EB54CE0835FB924 /* PBXTargetDependency */,
+			);
+			name = "cYt-dlp";
+			productName = "cYt-dlp";
+			productReference = 2277D12BFC744EE59F219D64 /* cYt-dlp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF7F07C86694F56BDDEC46D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 346AA9D7BBFE46C283B02BE6 /* Build configuration list for PBXProject "cYt-dlp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D4E741D2F7064E9FA9E01B76 /* Debug */,
+				7562439F9B55474DB73867D9 /* Release */,
+				085F4F78A6E74ABD9F589D70 /* MinSizeRel */,
+				F29E2384FE3C46E9A1393DDD /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = CBB3419946D24483A67C85D2;
+			projectDirPath = "/Users/czl/Desktop/st/cYt-dlp";
+			projectRoot = "";
+			targets = (
+				06F8FDB9FE2B4A019544E262 /* ALL_BUILD */,
+				B9FB9D89FBF44DD38D4ED571 /* ZERO_CHECK */,
+				0F1BF6FA2F3B4230B1AE8695 /* cYt-dlp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14FDAFB37B96DE60EF95CEF6 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/czl/Desktop/st/cYt-dlp/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B00F703CBD2D803F5868B93 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/czl/Desktop/st/cYt-dlp/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  make -f /Users/czl/Desktop/st/cYt-dlp/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  make -f /Users/czl/Desktop/st/cYt-dlp/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  make -f /Users/czl/Desktop/st/cYt-dlp/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  make -f /Users/czl/Desktop/st/cYt-dlp/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F2E6C12298AD296038EB01B0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/
+  cp -r -p /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/* /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/
+  cp -r -p /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/* /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/
+  cp -r -p /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/* /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/czl/Desktop/st/cYt-dlp/build
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+  chmod -R 755 /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/
+  cp -r -p /Users/czl/Desktop/st/cYt-dlp/sdk/mac/bin/* /Users/czl/Desktop/st/cYt-dlp/build/x64/Debug
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7AFE45552748A5BE4231D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74029CFAF1449759D1DE411 /* /Users/czl/Desktop/st/cYt-dlp/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268FF6A294704470A667E525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F1BF6FA2F3B4230B1AE8695 /* cYt-dlp */;
+			targetProxy = 691C8CFD5AAD48598E2E6775 /* PBXContainerItemProxy */;
+		};
+		338439CCF68B4500981DC810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FB9D89FBF44DD38D4ED571 /* ZERO_CHECK */;
+			targetProxy = 2BAA3B62417946E2AF182FD2 /* PBXContainerItemProxy */;
+		};
+		920779937EB54CE0835FB924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FB9D89FBF44DD38D4ED571 /* ZERO_CHECK */;
+			targetProxy = 6CBC61E3982044AABEC277BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05BEBF5B2F1B45939AFD166D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/czl/Desktop/st/cYt-dlp/build/build";
+			};
+			name = MinSizeRel;
+		};
+		0ABD29DCF6C4405EA98CD66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/czl/Desktop/st/cYt-dlp/build/build";
+			};
+			name = Debug;
+		};
+		17E8AF00778E41B8925A9855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		280299094DE4499C9E285BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		34A2E8886036425D85B1F4F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/x64/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/include","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17        -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/Python","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cYt-dlp";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/build/cYt-dlp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		441B3BA0FE4F4B1F93F47938 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/czl/Desktop/st/cYt-dlp/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		45A7FAF7A9514F1CA5014E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk;
+				SYMROOT = "/Users/czl/Desktop/st/cYt-dlp/build/build";
+			};
+			name = Release;
+		};
+		465955F3FF3640588981C9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A7445BA982844CBEA7BB23E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/x64/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/include","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/Python","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cYt-dlp";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/build/cYt-dlp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A8C2FA1EFF8945B7A8B16756 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B0AD02A9F41B4E8F89D16174 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B73BE6E9F3C7428BA54C2974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C26F01A97B8543CB880E4582 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/x64/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/include","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17     -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/Python","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cYt-dlp";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/build/cYt-dlp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9A58684F55D459DBCED7464 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EBDB80AAECBC4ECD92D26E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/x64/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/include","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17    ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/czl/Desktop/st/cYt-dlp/sdk/mac/lib/Python","-framework CoreFoundation","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "cYt-dlp";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/czl/Desktop/st/cYt-dlp/build/build/cYt-dlp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FBC2B85FE5F34248BDA4E7AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346AA9D7BBFE46C283B02BE6 /* Build configuration list for PBXProject "cYt-dlp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABD29DCF6C4405EA98CD66C /* Debug */,
+				45A7FAF7A9514F1CA5014E9F /* Release */,
+				05BEBF5B2F1B45939AFD166D /* MinSizeRel */,
+				441B3BA0FE4F4B1F93F47938 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		667F31C0D2FA4E6BBCDEC634 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E8AF00778E41B8925A9855 /* Debug */,
+				465955F3FF3640588981C9B6 /* Release */,
+				A8C2FA1EFF8945B7A8B16756 /* MinSizeRel */,
+				FBC2B85FE5F34248BDA4E7AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EAEF356B9144A099C163351 /* Build configuration list for PBXNativeTarget "cYt-dlp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDB80AAECBC4ECD92D26E96 /* Debug */,
+				A7445BA982844CBEA7BB23E4 /* Release */,
+				C26F01A97B8543CB880E4582 /* MinSizeRel */,
+				34A2E8886036425D85B1F4F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF999152999B4DA78334B44E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280299094DE4499C9E285BBD /* Debug */,
+				B73BE6E9F3C7428BA54C2974 /* Release */,
+				E9A58684F55D459DBCED7464 /* MinSizeRel */,
+				B0AD02A9F41B4E8F89D16174 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF7F07C86694F56BDDEC46D /* Project object */;
+}

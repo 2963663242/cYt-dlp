@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in cYt-dlp, no dependencies
+cYt-dlp in cYt-dlp, depends on:
+ZERO_CHECK in cYt-dlp (explicit)
+ALL_BUILD in cYt-dlp, depends on:
+ZERO_CHECK in cYt-dlp (explicit)
+cYt-dlp in cYt-dlp (explicit)

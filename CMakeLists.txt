@@ -18,12 +18,18 @@ if(MSVC)
 set(PLATFORM win)
 set(LINK_LIBRARY_DIR lib)
 set(LINK_LIBRARY python37 python3)
+elseif(APPLE)
+set(PLATFORM mac)
+set(LINK_LIBRARY_DIR lib)
+set(LINK_LIBRARY ${CMAKE_SOURCE_DIR}/sdk/${PLATFORM}/${LINK_LIBRARY_DIR}/Python "-framework CoreFoundation")
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/x64)
+set(OUTDIR ${EXECUTABLE_OUTPUT_PATH}/${CMAKE_BUILD_TYPE})
 endif()
 
 add_executable(cYt-dlp main.cpp)
 
 #添加头文件目录
-target_include_directories(cYt-dlp PUBLIC ${CMAKE_SOURCE_DIR}/sdk/include)
+target_include_directories(cYt-dlp PUBLIC ${CMAKE_SOURCE_DIR}/sdk/${PLATFORM}/include)
 
 # 添加库目录
 target_link_directories(cYt-dlp PUBLIC ${CMAKE_SOURCE_DIR}/sdk/${PLATFORM}/${LINK_LIBRARY_DIR})
@@ -42,4 +48,11 @@ if(MSVC)
 
 	# 设置vs调试目录
 	set_target_properties(cYt-dlp PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY "$(OutDir)")
+elseif(APPLE)
+	# 后处理脚本，将sdk bin目录复制到生成文件夹
+	add_custom_command(
+	TARGET cYt-dlp POST_BUILD
+	COMMAND  chmod -R 755 ${OUTDIR}
+	COMMAND  chmod -R 755 ${CMAKE_SOURCE_DIR}/sdk/${PLATFORM}/bin/
+	COMMAND  cp -r -p ${CMAKE_SOURCE_DIR}/sdk/${PLATFORM}/bin/* ${OUTDIR})
 endif()
