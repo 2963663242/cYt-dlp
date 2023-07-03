@@ -52,6 +52,7 @@ int main(int argc,char ** argv) {
 	PyObject_SetAttrString(sys, "argv", arglist);
 	Py_DECREF(arglist);
 	Py_DECREF(sys);
+	Py_DECREF(path);
 
 	//???Ŀ?꺯?
 	char* result;
